@@ -24,7 +24,7 @@ class YouTubeVideo(Publishable):
 
     instantiable = True
     type_group = "resource"
-    uri_pattern = "http://youtube.com/%s"
+    uri_pattern = "http://youtube.com/watch?v=%s"
     video_player = "cocktail.html.YouTubePlayer"
 
     default_resource_type = "video"
